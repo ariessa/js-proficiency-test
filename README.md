@@ -104,15 +104,15 @@ Dataset
 ]
 ```
 
-- Explanation
+#### Explanation
 I calculated the daily average commissions from the provided dataset as follows:
-    - Cleaned up the dataset by removing unnecessary colon (`:`) in key `commission`
-    - Looped through each data in the dataset
-        - Extracted the date
-        - Extracted the value of `commission`, replaced `RM` with empty string and parse it into `float`
-        - Store date and commission inside an `Object` called `commissionsByDate`
-    - Calculate the total and average commission for each date
-    - Convert the Object `aggregated commissions` into an array
-        - Format the date in "DD/MM/YYYY" format and the average commission to 2 decimal places
-    - Sort array `aggregated commissions` by date in descending order
-    - Return array `aggregated commissions` in JSON format using `JSON.stringify()`
+- Cleaned up the dataset by removing unnecessary colon (`:`) in key `commission`
+- Looped through each data in the dataset
+    - Extracted the date
+    - Extracted the value of `commission`, replaced `RM` with empty string and parse it into `float`
+    - Store date and commission inside an `Object` called `commissionsByDate`
+- Calculate the total and average commission for each date
+- Convert the Object `aggregated commissions` into an array
+    - Format the date in "DD/MM/YYYY" format and the average commission to 2 decimal places
+- Sort array `aggregated commissions` by date in descending order
+- Return array `aggregated commissions` in JSON format using `JSON.stringify()`
