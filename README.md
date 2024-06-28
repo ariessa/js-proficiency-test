@@ -106,6 +106,8 @@ Dataset
 ]
 ```
 
+<br />
+
 #### Explanation
 I calculated the daily average commissions from the provided dataset as follows:
 - Cleaned up the dataset by removing unnecessary colon (`:`) in key `commission`
