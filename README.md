@@ -30,7 +30,9 @@ Instructions:
 
 ### Answer for Question 1
 
-- Corrected code can be found in file [question1.js](question1.js).
+Corrected code can be found in file [question1.js](question1.js).
+
+<br />
 
 #### Explanation of changes and why they were made
 
